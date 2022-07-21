@@ -6,8 +6,10 @@ from src.repositories.base import BaseRepository
 from src.db.messages import messages
 from src.models.messages import Message, MessageOut
 from src.core.services import create_link
+from src.core.config import TEMPLATES_DIR
 
-templates = Jinja2Templates(directory="templates")
+
+templates = Jinja2Templates(directory=TEMPLATES_DIR)
 
 
 class MessageRepository(BaseRepository):
