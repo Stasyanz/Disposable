@@ -1,5 +1,3 @@
-from typing import List, Union
-
 from fastapi import APIRouter, Depends, Request
 from fastapi.responses import HTMLResponse
 
@@ -9,8 +7,6 @@ from src.models.messages import Message
 from src.endpoints.depends import get_message_repository
 
 router = APIRouter()
-
-
 
 
 @router.get("/{msg_id}", response_class=HTMLResponse, tags=['Messages'])

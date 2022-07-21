@@ -1,11 +1,8 @@
-from typing import List, Union
-
-from fastapi import APIRouter, Depends, Request
+from fastapi import APIRouter, Depends
 from fastapi.responses import HTMLResponse
 
 
 from src.repositories.messages import MessageRepository
-from src.models.messages import Message
 from src.endpoints.depends import get_message_repository
 
 router = APIRouter()
