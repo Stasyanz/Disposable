@@ -1,5 +1,5 @@
 ![release badge](https://img.shields.io/github/v/release/Stasyanz/Disposable?display_name=release)
-
+[![Docker Image CI](https://github.com/Stasyanz/Disposable/actions/workflows/docker-image.yml/badge.svg)](https://github.com/Stasyanz/Disposable/actions/workflows/docker-image.yml)
 ## A simple disposable one-time messages service.
 
 When one adds a new message, he gets a one-time link to it. 
