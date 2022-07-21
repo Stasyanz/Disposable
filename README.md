@@ -1,4 +1,4 @@
-!\[release badge\](https://img.shields.io/github/v/release/Stasyanz/Disposable?display_name=release)
+[release badge](https://img.shields.io/github/v/release/Stasyanz/Disposable?display_name=release)
 
 ## A simple disposable one-time messages service.
 
