@@ -1,3 +1,5 @@
+!\[release badge\](https://badgen.net/github/release/babel/babel)
+
 ## A simple disposable one-time messages service.
 
 When one adds a new message, he gets a one-time link to it. 
