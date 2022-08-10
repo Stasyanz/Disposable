@@ -1,5 +1,6 @@
-from src.core.config import fqdn, schema, config
 from secrets import token_urlsafe
+
+from src.core.config import fqdn, schema, config
 
 
 def create_link(message_id: str):
