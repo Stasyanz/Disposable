@@ -5,6 +5,22 @@
       <h4 class="alert-heading">Well done!</h4>
       <p>Here is your link</p>
       <hr>
-      <p class="mb-0">{{link}}</p>
+      <span class="mb-0" id="source">{{link}}</span><br>
     </div>
+    <button id="copybtn" class="btn btn-primary">Copy to clipboard</button>
+<script>
+document.getElementById("copybtn").addEventListener("click", copy_password);
+
+function copy_password() {
+    var copyText = document.getElementById("source");
+    var textArea = document.createElement("textarea");
+    var btn = document.getElementById("copybtn");
+    textArea.value = copyText.textContent;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("Copy");
+    textArea.remove();
+    btn.innerHTML = "Copied to clipboard!";
+};
+</script>
 {% endblock %}
