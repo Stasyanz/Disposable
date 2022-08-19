@@ -10,7 +10,7 @@ Once link is seen by anyone its being deleted.
 
 You want to be sure no one is reading your chat with your friend. 
 
-You create a one-time message and give you friend a link using you chat app.
+You create a one-time message and give your friend a link using you chat app.
 
 Once friend reads the message, its deleted. 
 
